@@ -4,3 +4,37 @@
     padding: 0;
 }
 
+/* Section_A */
+
+.section_a{
+    background-color: #604829;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.topo{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topo img{
+    width: 60px;
+}
+
+.menu-links{
+    margin-top: 15px;
+}
+
+.link-page{
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 3px 5px 2px #000000;
+    letter-spacing: 2px;
+    color: #c4a47c;
+}
