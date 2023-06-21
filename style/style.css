@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.uppercase{
+    text-transform: uppercase;
+}
+
 /* Section_A */
 
 .section_a{
@@ -37,4 +41,21 @@
     text-shadow: 3px 5px 2px #000000;
     letter-spacing: 2px;
     color: #c4a47c;
+}
+
+/* Section_B */
+
+.section_b{
+    height: 100vh;
+    background-image: url("../assets/parallax-imagem1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: "Fraunces";
+    color: #fff;
+    font-size: 100px;
+    font-weight: 400;
 }
