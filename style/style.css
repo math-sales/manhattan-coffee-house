@@ -8,6 +8,24 @@
     text-transform: uppercase;
 }
 
+h2{
+    font-family: "Oswald", sans-serif;
+    color: #c4a47c;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: "Fraunces", sans-serif;
+    background-color: #604829;
+    width: 500px;
+    padding: 10px;
+    color: #fff;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 /* Section_A */
 
 .section_a{
@@ -47,10 +65,15 @@
 
 .section_b{
     height: 100vh;
+    width: 100%;
     background-image: url("../assets/parallax-imagem1.png");
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1{
@@ -58,4 +81,56 @@ h1{
     color: #fff;
     font-size: 100px;
     font-weight: 400;
+}
+
+/* Section_C */
+
+.section_c{
+    width: 100%;
+}
+
+.sub-secçao{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 50vh;
+
+}
+
+.sub-section_b{
+    background-image: url('../assets/parallax-imagem2.jpg');
+}
+
+.sub-section_d{
+    background-image: url('../assets/parallax-imagem3.jpg');
+}
+
+.img{
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sub-secçao p{
+    font-family: "Lato", sans-serif;
+    color: #666;
+    padding: 0px 20px;
+    line-height: 32px;
+}
+
+.sub-section_a, .sub-section_c, .sub-section_e{
+    background-color: #fff;
+    width: 920px;
+}
+
+/* Section-D */
+
+.section_d{
+    background-image: url('../assets/parallax-imagem4.png');
+    text-align: center;
 }
