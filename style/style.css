@@ -133,4 +133,32 @@ h1{
 .section_d{
     background-image: url('../assets/parallax-imagem4.png');
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+.section_d h2{
+    color: #fff;
+    background-color: #604829;
+    width: 500px;
+    letter-spacing: 2px;
+    margin: 60px auto ;
+    padding: 5px;
+}
+
+.contatos{
+    color: #fff;
+    background-color: #604829;
+    width: 600px;
+    margin: 70px auto;
+    font-family: 'Latto', sans-serif;
+    padding: 15px;
+}
+
+.contatos p{
+    margin: 15px;
+    text-shadow: 3px 5px 5px #000000;
+}
+
+/* Section-E */
+
