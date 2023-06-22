@@ -14,7 +14,7 @@ h2{
     margin-bottom: 20px;
 }
 
-h3{
+.sub-secçao h3{
     font-family: "Fraunces", sans-serif;
     background-color: #604829;
     width: 500px;
@@ -162,3 +162,21 @@ h1{
 
 /* Section-E */
 
+.section_e{
+    color: #fff;
+    background-image: url('../assets/cafeteria.jpg');
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.section_e h2{
+    text-align: center;
+    margin: 0 auto;
+}
+
+li{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
