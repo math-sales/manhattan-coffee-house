@@ -167,16 +167,50 @@ h1{
     background-image: url('../assets/cafeteria.jpg');
     padding-top: 10px;
     padding-bottom: 10px;
-    
+    height: 85vh; 
+    background-size: cover;
+    background-repeat: no-repeat;   
 }
 
 .section_e h2{
     text-align: center;
+    margin: 80px auto;
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+ul{
+    width: 1024px;
     margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
 }
 
 li{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+    position: relative;
+    margin-bottom: 12px;    
 }
+
+li div{
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    background-color: #acacac;
+    right: 0;
+    left: 0;
+    bottom: 50%;
+    margin: 0 auto;
+}
+
+li span{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.closed{
+    color: #c4a47c;
+}
+
+/* Section-F */
+
