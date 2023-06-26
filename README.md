@@ -8,3 +8,5 @@
  Esse foi um projeto desafiante ja que é complicado lidar com position uma vez que ela bagunça toda a estilização. No entanto, foi divertido.
 
  O design base do projeto esta na pasta junto de outras informações.
+
+ Projeto finalizado.
